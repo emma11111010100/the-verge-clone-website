@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* thevergelogo */
+
+.navLogo {
+    display: flex;
+    align-items: center;
+}
+
+.katman_1 {
+    display: flex;
+    align-items: center;
+}
+
+#katman_1 {
+    width: 110px;
+    height: 28px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    color: #FFF;
+    font-size: clamp(1.4vw, 18px, 1.4rem);
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.plusSvg {
+    fill: #FFF;
+    width: 20px;
+}
+
+.themeHolder {
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 97%)
+}
+
+img svg{
+    display: block;
+    width: 100%;
+}
+
+.bannerAd {
+    min-height: 240px;
+    border-bottom: 1px solid #313131;
+    background-color: #292929;
+}
+
+main {
+    position: relative;
+}
+
+.navHolder {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: calc(100% - 100vh);
+    height: 160px;
+}
+
+.navContainer {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.homeNav {
+    justify-content: space-around;
+    position: relative;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    height: 80px;
+    width: 100%;
+    align-content: center;
+    max-width: 1100px;
+}
+
+.homeNav .navUl {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px #FFF;
+    padding-bottom: 10px;
+}
+
+.homeNav .navUl li {
+    list-style: none;
+    font-size: clamp(1.4vw, 18px, 1.4rem);
+    color: #FFF;
+}
+
+.homeNav .navUl span {
+    margin-inline: 1rem;
+}
+
+
+
+/* ____main____ */
+
+.topBlogHolder {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+/* ----  left section  ---- */
+
+.leftSection1 {
+    margin-top: 150px;
+    width: 710px;
+}
+
+.leftSection1 .Holder{
+    padding-top: 28px;
+    padding-right: 40px;
+    position: relative;
+}
+
+
+.blog1HeroImgHolder {
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.katman_2 {
+    width: 658px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-90deg);
+    height: auto;
+    z-index: 10;
+}
+
+.heroImgHolder {
+    width: 560px;
+    height: 464px;
+    position:relative;
+}
+
+.heroImg {
+    position: absolute;
+    width: auto;
+    height: inherit;
+    object-fit: cover;
+}
+
+/* right section */
+
+.rightSection1 {
+    margin-top: 150px;
+    width: 380px;
+    height: 100%;
+    max-height: 100%;
+}
+
+.topStories {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    padding-left: 40px;
+    color: #33CEA8;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.mostPopular {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+/* orderes lists */
+
+.relative .lists {
+    display: flex;
+}
+
+.labelHolder {
+    justify-content: center;
+    align-self: stretch;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.labelHolder .label {
+    color: rgb(60, 255, 208);
+    font-size: 11px;
+    background-color: rgba(49, 49, 49, 0.9);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 1.25rem;
+    display: flex;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    flex-wrap: wrap;
+}
+
+.rightPosts {
+    border-bottom: solid 1px #313131;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.rightPostText {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightPostText h2 {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.rightPosts .liImgHolder {
+    width: 100px;
+    height: 80px;
+    position: relative;
+}
+
+.rightPosts .liImgHolder img {
+    position: absolute;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+    aspect-ratio: auto;
+    height: inherit;
+}
+
+.rightPostMeta {
+    padding-top: 10px;
+}
+
+/* //////// */
+
+.heroText {
+    margin-top: -40px;
+    position: relative;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
+.heroText .heroTextHeading {
+    margin-bottom: 20px;
+    text-shadow:0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.heroTextHeading a {
+    font-family: "Manuka Condensed", "Impact", Helvetica, sans-serif;
+    font-size: 90px;
+    line-height: 0.8;
+    letter-spacing: 0.01em;
+}
+
+.heroText .highlight {
+    line-height: 1.1;
+    font-size: 20px;
+    color: rgb(239, 239, 239);
+    opacity: 0.7;
+    margin-bottom: 6px;
+}
+
+.blogMetaData {
+    padding-top: 4px;
+}
+
+.authorName {
+    margin-right: 8px;
+    font-family: monospace;
+    color: #33CEA8;
+    text-transform: uppercase;
+}
+
+
+.authorName2  {
+    margin-right: 8px;
+    color: #FFF;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.time {
+    letter-spacing: 2px;
+    color: #FFF;
+    opacity: 70%;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.time2 {
+    opacity: 0.9;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* middle ad section */
+
+.desktopHeroSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* main blog section */
+
+.mainBlogHolder {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.mainBlogContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainBlog1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+
+.leftSection2 {
+    margin-right: 60px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    margin-left: auto;
+}
+
+.leftSection2intro {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rightSection2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    flex: 1 1 0%;
+    margin-left: 40px;
+    max-width: 650px;
+
+}
+
+/****************/
+
+/*brutal background color*/
+
+
+.rightSection2Holder {
+    width: 500px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(81, 0, 255);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.rightSection2Holder2 {
+    width: 500px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #22482c;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/*large background text*/
+
+.hiddenText {
+    font-family: "impact";
+    writing-mode: vertical-rl; 
+    text-orientation: sideways;
+    position: absolute;
+    display: flex;
+    color: rgb(57, 4, 171);
+    line-height: 1;
+    font-size: 190px;
+    transform: rotate(180deg);
+    height: 100%;
+    margin-right: -25px;
+    bottom: -10px;
+    right: 0;
+    font-weight: 1000;
+    z-index: -10;
+    opacity: 1;
+}
+
+.hiddenText2 {
+    font-family: "impact";
+    writing-mode: vertical-rl; 
+    text-orientation: sideways;
+    position: absolute;
+    display: flex;
+    color: darkgreen;
+    line-height: 1;
+    font-size: 190px;
+    transform: rotate(180deg);
+    height: 100%;
+    margin-right: -25px;
+    bottom: -10px;
+    right: 0;
+    font-weight: 1000;
+    z-index: -10;
+    opacity: 1;
+}
+
+
+/****************/
+
+.labelHolder2 {
+    justify-content: center;
+    align-self: stretch;
+    display: flex;
+    margin-right: 20px;
+}
+
+.label2 {
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 49, 49, 0.9);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.labelHolder3 {
+    margin-right: 16px;
+}
+
+.label3 {
+    font-family: ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl; 
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    font-size: 12px;
+    margin-top: -20px;
+    border-left: solid 1px #33CEA8;
+    padding-left: 4px;
+}
+
+.list2 {
+    align-items: center;
+    display: flex;
+}
+
+.rightPosts .liImgHolder2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.rightPosts .liImgHolder2 img {
+    position: absolute;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+    aspect-ratio: auto;
+    height: inherit;
+}
+
+.rightPosts .rightPostText2 h2 a{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.rightPostText2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin-right: 20px;
+}
+
+.rightPostText h2 {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+
+
+
+/*separator*/
+
+.separatorHolder {
+    position: relative;
+    display: block;
+    min-height: 250px;
+    min-width: 620px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separatorHolder::before {
+    position: relative;
+    background-color: rgb(49, 49, 49);
+    content: "";
+    width: 768px;
+    height: 6px;
+    display: flex;
+    margin: auto;
+    top: 50%;
+}
+
+.separatorAdSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 0;
+    overflow: hidden;
+    text-align: center;
+    height: inherit;
+}
+
+.separatorAdHolder {
+    min-width: 620px;
+    height: 90px;
+    max-width: 1060px;
+    width: 100%;
+    border: 1px solid rgba(250, 250, 250, 0);
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
